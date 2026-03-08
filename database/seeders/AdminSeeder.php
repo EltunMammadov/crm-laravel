@@ -18,10 +18,5 @@ class AdminSeeder extends Seeder
             'email' => 'admin@admin.com',
             'password' => bcrypt('admin123')
         ]);
-
-        // bunun icini bele dagitmaq lazimdir. bunu unutma.
-        // sehv isleyirsen. soyus soymursen
-        // bunun beterini sikim.
-        // soymesen olmur
     }
 }
