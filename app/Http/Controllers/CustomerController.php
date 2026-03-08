@@ -7,7 +7,7 @@ use App\Services\CustomerService;
 use App\Services\TodoService;
 use App\Http\Resources\Customer\CustomerResource;
 use App\Http\Resources\MetaResource;
-use App\Http\Requests\{
+use App\Http\Requests\Customer\{
     CreateCustomerRequest,
     UpdateCustomerRequest
 };

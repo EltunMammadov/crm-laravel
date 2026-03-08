@@ -16,8 +16,8 @@ class TodoResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'customer_id' => $this->customer->id,
-            'service_id' => $this->service->id,
+            'customer_id' => $this->customer_id,
+            'service_id' => $this->service_id,
             'start_date' => $this->start_date,
             'end_date' => $this->end_date,
             'status' => $this->status,
