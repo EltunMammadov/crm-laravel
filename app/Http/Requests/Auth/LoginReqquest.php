@@ -50,14 +50,14 @@ class LoginReqquest extends FormRequest
         ];
     }
 
-    protected function failedValidation(Validator $validator)
-    {
-        throw new HttpResponseException(
-            response() -> json([
-                'success' => false,
-                'message' => 'Bad Request',
-                'errors' => $validator->errors()
-            ], 422)
-        );
-    }
+    // protected function failedValidation(Validator $validator)
+    // {
+    //     throw new HttpResponseException(
+    //         response() -> json([
+    //             'success' => false,
+    //             'message' => 'Bad Request',
+    //             'errors' => $validator->errors()
+    //         ], 422)
+    //     );
+    // }
 }
